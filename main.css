@@ -1,0 +1,66 @@
+.login-page {
+    width: 360px;
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: black;
+    max-width: 300pt;
+    margin: none;
+    padding: 40pt;
+    text-align: center;
+    border-radius: 0px;
+    outline: 2px double gray
+  }
+  .form input {
+    outline: 0;
+    background: rgb(30, 27, 34);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10pt;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  body {
+    background: black;
+    height: 100%;
+    overflow-y: hidden;
+  }
+  
+  .login {
+    background-color: rgb(30, 27, 34);
+    border: none;
+    color: rgb(0, 153, 51);
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "VT323", monospace;
+  }
+  
+  #canv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    user-select: none;
+  }
+  
+  input {
+    color: lightgrey;
+  }
+  ::-ms-reveal {
+    filter: invert(100%);
+    transform: scale(0.8);
+  }
